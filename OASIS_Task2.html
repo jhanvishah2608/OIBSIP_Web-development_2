@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tribute Page - APJ Abdul Kalam</title>
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #f0f4f8;
+      font-family: Georgia, serif;
+      color: #333;
+    }
+
+    header {
+      background-color: #1a1a2e;
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    header h1 {
+      font-size: 48px;
+      color: #e94560;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      font-size: 18px;
+      color: #a0a0c0;
+      margin-top: 10px;
+    }
+
+    .image-section {
+      text-align: center;
+      background-color: #16213e;
+      padding: 40px 20px;
+    }
+
+    .image-section img {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      border: 5px solid #e94560;
+      object-fit: cover;
+    }
+
+    .image-section p {
+      color: #a0a0c0;
+      margin-top: 12px;
+      font-size: 14px;
+      font-style: italic;
+    }
+
+    .content {
+      max-width: 850px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+     .card {
+      background-color: #ffffff;
+      border-left: 5px solid #e94560;
+      border-radius: 8px;
+      padding: 25px 30px;
+      margin-bottom: 25px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    }
+
+    .card h2 {
+      font-size: 22px;
+      color: #1a1a2e;
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      font-size: 16px;
+      line-height: 1.8;
+      color: #555;
+    }
+
+    .timeline {
+      list-style: none;
+      padding: 0;
+    }
+
+    .timeline li {
+      padding: 10px 0;
+      border-bottom: 1px dashed #ddd;
+      font-size: 15px;
+      color: #444;
+    }
+
+    .timeline li span {
+      font-weight: bold;
+      color: #e94560;
+      margin-right: 10px;
+    }
+
+    .quote {
+      background-color: #1a1a2e;
+      color: #ffffff;
+      text-align: center;
+      padding: 40px 30px;
+      margin: 40px 0;
+      border-radius: 10px;
+    }
+
+    .quote p {
+      font-size: 22px;
+      font-style: italic;
+      color: #f0c040;
+      line-height: 1.8;
+    }
+
+    .quote span {
+      display: block;
+      margin-top: 15px;
+      font-size: 14px;
+      color: #a0a0c0;
+    }
+
+    .awards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 15px;
+    }
+
+    .award-badge {
+      background-color: #e94560;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #1a1a2e;
+      color: #a0a0c0;
+      text-align: center;
+      padding: 25px;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+
+    footer span {
+      color: #e94560;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>APJ Abdul Kalam</h1>
+    <p>Missile Man of India &nbsp;|&nbsp; 11th President of India &nbsp;|&nbsp; People's President</p>
+  </header>
+
+  <div class="image-section">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/A._P._J._Abdul_Kalam.jpg/800px-A._P._J._Abdul_Kalam.jpg" alt="APJ Abdul Kalam" />
+    <p>Dr. Avul Pakir Jainulabdeen Abdul Kalam (1931 – 2015)</p>
+  </div>
+
+  <div class="content">
+
+    <div class="card">
+      <h2>About Him</h2>
+      <p>
+        Dr. APJ Abdul Kalam was one of India's greatest scientists and a beloved President.
+        Born on October 15, 1931, in Rameswaram, Tamil Nadu, he came from a humble background
+        but rose to become the most respected figure in Indian science and politics.
+        He inspired millions of young people to dream big and work hard.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Life Timeline</h2>
+      <ul class="timeline">
+        <li><span>1931</span> Born in Rameswaram, Tamil Nadu</li>
+        <li><span>1954</span> Graduated in Physics from Saint Joseph's College</li>
+        <li><span>1960</span> Joined DRDO as a scientist</li>
+        <li><span>1969</span> Moved to ISRO, worked on satellite launch vehicles</li>
+        <li><span>1983</span> Led India's Integrated Guided Missile Development Programme</li>
+        <li><span>1998</span> Key role in Pokhran-II nuclear tests</li>
+        <li><span>2002</span> Became the 11th President of India</li>
+        <li><span>2007</span> Retired from Presidency</li>
+        <li><span>2015</span> Passed away on July 27 while delivering a lecture in Shillong</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Awards & Honours</h2>
+      <div class="awards">
+        <span class="award-badge">Bharat Ratna (1997)</span>
+        <span class="award-badge">Padma Vibhushan (1990)</span>
+        <span class="award-badge">Padma Bhushan (1981)</span>
+        <span class="award-badge">Indira Gandhi Award</span>
+        <span class="award-badge">Veer Savarkar Award</span>
+        <span class="award-badge">Ramanujan Award</span>
+      </div>
+    </div>
+
+    <div class="quote">
+      <p>"Don't take rest after your first victory because if you fail in second,
+         more lips are waiting to say that your first victory was just luck."</p>
+      <span>— APJ Abdul Kalam</span>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>Made with <span>❤</span> in memory of Dr. APJ Abdul Kalam — A true inspiration for every Indian</p>
+  </footer>
+
+</body>
+</html>
